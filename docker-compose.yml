@@ -1,0 +1,7 @@
+include:
+  # This file is there for launching the infrastructure to make the build system work.
+  # It is not part of the actual ECU system.
+  - ./infra/compose.infra.yml
+
+  - ./body_ecu/compose.body.yml
+  - ./central_ecu/compose.central.yml
